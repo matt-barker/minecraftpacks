@@ -4,13 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>My Website</title>
+    <title>Minecraft Packs</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <style>
+      table.GeneratedTable {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #00aa00;
+        border-style: solid;
+        color: #262626;
+      }
+
+      table.GeneratedTable td,
+      table.GeneratedTable th {
+        border-width: 2px;
+        border-color: #00aa00;
+        border-style: solid;
+        padding: 5px;
+      }
+
+      table.GeneratedTable thead {
+        background-color: #00aa00;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <a href="packs/Stay_True_1.20.zip">Stay True 1.20</a>
+      <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>SHA1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="packs/Stay_True_1.20.zip">Stay True 1.20</a>
+              <input type="text" value="Hello World" id="myInput" />
+
+              <button onclick="myFunction()">Copy text</button>
+            </td>
+            <td>e62cef3d46234f8e2b04d5d01c870a6f41f9ae79</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </body>
 </html>
